@@ -20,34 +20,24 @@ h1 {
     font-size: 4.5rem;
 }
 
-.statistics-container {
-    display: flex;
-    justify-content: center;
-}
-
-.statistic-box {
-    width: 30%;
-    padding: 1rem;
-}
-
-#detailed-records {
-    margin-top: 2rem;
-}
-
-#fully-customizable {
-    margin-top: 4rem;
-}
-
-.statistic-icon {
-    position: relative;
-}
 
 @media screen and (max-width: 500px) {
     #main-banner {
-        flex-direction: column;
+        flex-direction: column-reverse;
+        align-items: baseline;
+        text-align: center;
+
+        img {
+            width: 100%;
+            position: relative;
+            left: 4rem;
+        }
 
         h1 {
             font-size: 2rem;
+            line-height: 105%;
+            margin-bottom: 1rem;
         }
+
     }
 }

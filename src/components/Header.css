@@ -33,4 +33,16 @@ a {
 #login-btn {
     background-color: transparent;
     color: var(--gray);
-  }
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        img {
+            width: 5rem;
+        }
+
+        nav, .login-container {
+            display: none;
+        }
+    }
+}

@@ -30,7 +30,8 @@ footer {
     position: absolute;
     bottom: 0.5rem;
     right: 2rem;
-    font-size: 11px; text-align: center;
+    font-size: 11px; 
+    text-align: center;
   }
   
   .attribution a { 
@@ -38,4 +39,23 @@ footer {
     letter-spacing: 0.2rem;
     margin: 0 0.5rem;
     font-weight: 300;
+  }
+
+  @media screen and (max-width: 500px) {
+    footer {
+      flex-direction: column;
+    }
+    footer nav ul {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .socials-container {
+      margin-bottom: 2rem;
+    }
+
+    .attribution {
+      position: initial;
+      
+    }
   }
