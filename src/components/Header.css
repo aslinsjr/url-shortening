@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    button {
+        border-radius: 2rem;
+    }
+}
+
+.left-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+ul {
+    display: flex;
+    gap: 0.5rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--grayish-violet);
+    font-weight: bold;
+}
+
+#login-btn {
+    background-color: transparent;
+    color: var(--gray);
+  }

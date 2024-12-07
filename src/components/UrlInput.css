@@ -1,0 +1,50 @@
+.input-control {
+    width: 100%;
+    padding: 3rem;
+    background-image: url("/public/bg-shorten-desktop.svg");
+    background-color: var(--very-dark-blue);
+    border-radius: 0.5rem;
+    display: flex;
+    gap: 1rem;
+
+    input {
+        width: 100%;
+        border-radius: 0.5rem;
+        border: none;
+        padding: 1rem 0.5rem;
+    }
+
+    input:focus {
+        outline: none;
+    }
+
+    button {
+        min-width: fit-content;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        border: none;
+    }
+}
+
+.show-urls {
+    margin-top: 1rem;
+
+    .url-box {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+
+        .right-side {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+
+            button {
+                width: 5rem;
+                border-radius: 0.5rem;
+            }
+        }
+    }
+}

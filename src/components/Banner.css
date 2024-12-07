@@ -1,0 +1,53 @@
+#main-banner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    overflow-x: hidden;
+
+    button {
+        margin-top: 2rem;
+        border-radius: 1rem;
+    }
+
+    img {
+        margin-right: -10%;
+    }
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+
+.statistics-container {
+    display: flex;
+    justify-content: center;
+}
+
+.statistic-box {
+    width: 30%;
+    padding: 1rem;
+}
+
+#detailed-records {
+    margin-top: 2rem;
+}
+
+#fully-customizable {
+    margin-top: 4rem;
+}
+
+.statistic-icon {
+    position: relative;
+}
+
+@media screen and (max-width: 500px) {
+    #main-banner {
+        flex-direction: column;
+
+        h1 {
+            font-size: 2rem;
+        }
+    }
+}
